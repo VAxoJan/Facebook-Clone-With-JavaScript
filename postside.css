@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: inherit;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.main{
+    width: 650px;
+    height: 130px;
+    background-color: #fff;
+    margin: 0px auto;
+    border-radius: 10px;
+}
+.headDiv{
+    width: 100%;
+    height: 40px;
+    padding-inline: 20px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+.headDiv>button{
+    width: 100%;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(112, 108, 108, 0.1);
+    outline: none;
+    text-align: start;
+    padding-inline: 20px;
+    color: rgba(0, 0, 0, 0.781);
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.headDiv>img{
+    margin-top: 20px;
+}
+.bit{
+    background-color: #ccc;
+    width: 92%;
+    height: 1px;
+    margin: 20px auto;
+}
+.bottomDiv{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-inline: 26px;
+    gap: 10px;
+}
+.live,.feeling,.photo{
+    width: 300px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.live:hover{
+    background-color: rgba(112, 108, 108, 0.1);
+    transition: 0.1ms;
+}
+.photo:hover{
+    background-color: rgba(112, 108, 108, 0.1);
+    transition: 0.1ms;
+}
+.feeling:hover{
+    background-color: rgba(112, 108, 108, 0.1);
+    transition: 0.1ms;
+}
+#postInput{
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    font-size: 14px;
+    background: transparent;
+}
+#container>main{
+    margin-top: 10px;
+}
+#newPost>button{
+    width: 20px;
+    height: 20px;
+}
+#logout{
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./postside.css">
+    <link rel="icon" type="image/x-icon" href="./icons/2023_Facebook_icon.svg.png" />
+    <script src="./post.js" defer ></script>
+    <script src="./script.js" defer type="module" ></script>
+    <script src="login.js" defer type="module"></script>
+    <title>Facebook</title>
+</head>
+
+<body>
+    <img id="logout" src="./images/logout.png" alt="">
+    <div class="main">
+        <div class="headDiv">
+            <img style="border-radius: 50px;" width="40px" height="40px" src="./images/userDefaultImg.jpg" alt="">
+            <button style="display: flex; align-items: center; gap: 6px;">
+                <p style="width: 180px;" id="name"></p>,
+                <input id="postInput" style="border: none; width: 100%; height: 100%;" type="text" placeholder="საკუთარ აზრს ხომ არ გაგვიზიარებდით?">
+                </button>
+        </div>
+        <div class="bit"></div>
+        <div class="bottomDiv">
+            <div class="live">
+                <img width="24px" height="24px" src="./icons/live.png" alt="">
+                <p>Live video</p>
+            </div>
+            <div class="photo">
+                <img width="24px" height="24px" src="./icons/photo.png" alt="">
+                <p>Photo/video</p>
+            </div>
+            <div class="feeling">
+                <img width="24px" height="24px" src="./icons/smile.png" alt="">
+                <p>Feeling/activity</p>
+            </div>
+        </div>
+        <div id="container" style="margin-top: 50px;"></div>
+    </div>
+</body>
+
+</html>

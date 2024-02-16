@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+#re-password{
+    width: 90%;
+    height: 54px;
+    margin: 21px auto;
+    font-size: 16px;
+    text-align: start;
+    padding-inline: 16px;
+    border-radius: 8px;
+    border: 1px solid grey;
+}
+#signUpBtn{
+    margin-top: -2px;
+}
+.right-side{
+    height: 88%;
+}
