@@ -1,0 +1,25 @@
+@media (width < 674px) {
+    *{
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .main{
+        width: 100%;
+    }
+    #name{
+        width: 140px;
+        font-size: 10px;
+    }
+    .bottomDiv{
+        padding-inline: 8px;
+    }
+    .live>p{
+        font-size: 12px;
+    }
+    .photo>p{
+        font-size: 12px;
+    }
+    .feeling>p{
+        font-size: 10px;
+    }
+}
