@@ -30,9 +30,11 @@ postInput.addEventListener("keypress", (event) => {
             newPost.style.display = "flex";
             newPost.style.alignItems = "center";
             newPost.style.justifyContent = "space-around";
-            const delll = document.createElement("button");
-            delll.textContent = "X";
+            const delll = document.createElement("img");
+            delll.src = "https://static-00.iconduck.com/assets.00/trash-icon-462x512-njvey5nf.png"
             delll.style.cursor = "pointer";
+            delll.style.width = "20px";
+            delll.style.height = "20px";
             delll.id = "deleteButton";
             newPost.appendChild(delll);
             printTime()
